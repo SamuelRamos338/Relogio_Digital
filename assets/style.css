@@ -92,3 +92,38 @@ body.dark{
 #cor {
     color: #000000cb;
 }
+
+@media (max-width: 600px) {
+    .relogio {
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        min-width: 0;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+        padding: 20px 0;
+    }
+
+    .relogio div {
+        width: 80vw;
+        max-width: 250px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .relogio span {
+        font-size: 32px;
+    }
+
+    .relogio span.tempo {
+        font-size: 12px;
+    }
+
+    #trilho {
+        bottom: 30px;
+    }
+
+    .creditos {
+        bottom: 60px;
+        font-size: 10px;
+    }
+}
